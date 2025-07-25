@@ -16,7 +16,7 @@ const App = () => {
         placeholder="Enter your name"
       />
       
-      {name.trim() !== '' && <h3>Hello, {name}!</h3>}
+      {name.length > 0 && <h3>Hello, {name}!</h3>}
     
     </div>
   )
